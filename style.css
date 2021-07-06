@@ -32,11 +32,25 @@ section{
     padding: 5%;
     display: flex;
     background-image:url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .about-me img{
-    width: 70%;
-    background-repeat: no-repeat;
+    width: 100%;
     padding: 10px 20px 40px 30px;
+}
+.about-me p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+}
+.contact-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 800;
+    padding: 10px 10px;
+    border-radius: 5px;
 }
 .recipe-heading{
     text-align: center;
