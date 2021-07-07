@@ -2,19 +2,26 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 75px;
 }
 h2{
-    font-size: 50px;
+    font-size: 75px;
 }
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
+    width: 80%;
+    margin: 10px;
+}
+p{
+    font-size: 30px;
+    font-weight: 700;
+    text-justify: newspaper;
 }
 .half-width{
-    width: 50%;
+    width: 60%;
     padding: 3%;
 }
 .half-width img{
@@ -27,6 +34,7 @@ section{
     font-weight: 700;
     padding: 10px 10px;
     border-radius: 5px;
+    font-size: 30px;
 }
 .about-me{
     padding: 5%;
@@ -51,6 +59,8 @@ section{
     font-weight: 800;
     padding: 10px 10px;
     border-radius: 5px;
+    font-size: 30px;
+    margin-left: 45%;
 }
 .recipe-heading{
     text-align: center;
@@ -60,10 +70,29 @@ section{
     font-weight: 500;
     font-size: 40px;
 }
-.food-image{
+.food{
+    margin-left: 20px;
+    width: 10%;
     display: flex;
 }
-.food{
-    flex: 25%;
-    padding: 10px;
+.food-image{
+    margin-right: 5%;
+    background-color: ivory;
+}
+.social-like{
+    width: 25%;
+    padding: 50px 100px 50px 50px;
+    margin-right: 20%;
+}
+.footer-add{
+    background-color: palegoldenrod;
+    width: 80%;
+    text-align-last: center;
+    font-size: 30px;
+    font-weight: 1000;
+    margin-left: 20px;
+}
+.footer-add p{
+    font-size: 30px;
+    font-weight: 1000;
 }
